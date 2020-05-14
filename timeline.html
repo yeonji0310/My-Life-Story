@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My timeline</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playball&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+</head>
+<style>
+    #title{text-align:center;}
+</style>
+<body>
+    <div id="title">
+        <h1>Yeonji's Life Story</h1>
+    </div>
+    <br>
+    <br>
+    <div class="buttons">
+        <button class="changing" onclick="
+        document.querySelector('body').style.backgroundColor='rgb(133,38,23)';
+        document.querySelector('#title').style.backgroundColor='rgb(133,38,23)'">Red</button>
+        <button class="changing" onclick="
+        document.querySelector('body').style.backgroundColor='rgb(10,52,22)';
+        document.querySelector('#title').style.backgroundColor='rgb(10,52,22)'">Green</button>
+
+    </div>
+    <div class="content">
+        <div class="card">
+            <img src="feet.jpg">
+            <div class="date"><strong>1999.03.10</strong></div>
+            <div class="what">Birthday</div>
+            <div class="where">전라남도 여수시</div>
+            <div class="text">예정일 보다 1주일 늦게 태어남</div>
+            <div class="dot"></div>
+        </div>
+        <div class="card">
+            <img src="kid.jpg">
+            <div class="date"><strong>2006.03.03</strong></div>
+            <div class="what">Enter Elementary School</div>
+            <div class="where">Yeondo elementary School</div>
+            <div class="text">반별로 색이 다른 모자를 나눠줌.
+                </div>
+            <div class="dot"></div>
+        </div>
+        <div class="card">
+            <img src="middle.jpg">
+            <div class="date"><strong>2012.03.03</strong></div>
+            <div class="what">Enter Middle School</div>
+            <div class="where">Yeondo Middle School</div>
+            <div class="text">급식 꿀맛</div>
+            <div class="dot"></div>
+             
+        </div>
+
+        <div class="card">
+            <img src="high.jpg">
+            <div class="date"><strong>2015.03.03</strong></div>
+            <div class="what">Enter High School</div>
+            <div class="where">Changpyeong High School</div>
+            <div class="text">힘들었던 3년</div>
+            <div class="dot"></div>
+                
+        </div>
+
+        <div class="card">
+            <img src="univ.jpg">
+            <div class="date"><strong>2018.03.02</strong></div>
+            <div class="what">University</div>
+            <div class="where">SKKU</div>
+            <div class="text">자유로운 시간들</div>
+            <div class="dot"></div>
+                
+        </div>
+
+        <div class="card">
+            <img src="com.jpg">
+            <div class="date"><strong>2020.05~</strong></div>
+            <div class="what">?</div>
+            <div class="where">?</div>
+            <div class="text">앞으로 채워나갈 예정</div>
+            <div class="dot"></div>
+                
+        </div>
+    </div>
+    <div class="line"></div>
+    <a href="#title"><button id="tothetop">▲Top</button></a>
+</body>
+</html>

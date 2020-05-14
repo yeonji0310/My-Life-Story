@@ -1,0 +1,122 @@
+
+    #title{
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Tangerine', cursive;
+        font-family: 'Playball', cursive;
+        background-color:rgb(40,54,101);
+        color:rgb(221, 200, 109);
+        border-bottom:5px groove rgb(221, 200, 109);
+        
+        }
+    body{
+        background-color:rgb(40,54,101) ;
+
+    }
+    img{position:relative;
+        width: 130px;
+        height: 130px;
+        grid-column: 1;
+        border-radius:100%;
+        box-shadow: 0px 10px 10px  rgb(21, 29, 53);
+        border-color:rgb(190,169,86);
+        top:-47%;
+        margin-left:-86%;
+        z-index:10;}
+
+    .card{
+        position:relative;
+        display:grid;
+        grid-template-columns: 60px auto 30px;
+        background-color:whitesmoke;
+        width:40%;
+        margin-bottom:5%;
+        box-shadow: 10px 10px 10px rgb(21, 29, 53);
+        border: 10px double rgb(221, 200, 109);
+        transition:0.8s;
+        
+        }
+    .dot{
+        width:20px;
+        height:20px;
+        background-color:rgb(190,169,86);
+        position:absolute;
+        right:-25%;
+        top:40%;
+        border-radius:100%;
+        z-index:0;
+        
+    }
+    .date{
+        position:relative;
+        grid-column: 2;
+        top:5%;
+        margin-left:70%;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Tangerine', cursive;
+        font-family: 'Playball', cursive;
+        z-index:5;
+        back
+    }
+    .what{
+        position:relative;
+        grid-column: 2;
+        top: -267%;
+    }
+    .where{
+        position:relative;
+        grid-column: 2;
+        top:-200%;
+    }
+    .text{
+        position:relative;
+        grid-column: 2;
+        top:-131%;
+    }
+    .content{
+        position:relative;
+        padding:10%;
+        margin:5%
+    }
+    .line{
+        width:5px;
+        background-color:rgb(190,169,86);
+        position:absolute;
+        top:28%;
+        height:294%;
+        left:50%;
+        margin-left:-2.5px;
+        z-index:3;
+    }
+    .card:nth-child(even){
+        margin-left:60%;
+    }
+    .card:nth-child(even) .dot{
+        left:-30%;
+    }
+    .card:nth-child(odd) .img{
+        top:-47%;
+        right margin:86%;
+    }
+    .buttons{text-align:center;
+            top:3%;}
+    @media(max-width:1000px){
+        .dot,.line{display:none}
+        .card{margin-bottom:30px}
+        .card{width:80%;
+              margin-left:10%;}
+        .card:nth-child(even){
+            margin-left:10%;
+        }
+        
+    }
+    .card:hover{
+        background-color:rgb(243, 229, 166);
+    }
+    #tothetop{
+        position:fixed;
+        left:2px;
+        bottom:100px;
+    }
+   
+   
